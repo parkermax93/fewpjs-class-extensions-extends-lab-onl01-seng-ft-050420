@@ -28,6 +28,7 @@ class Triangle extends Polygon {
     let side3 = this.sides[2]
     return ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1))
   }
+}
   
   class Square extends Polygon { 
     
